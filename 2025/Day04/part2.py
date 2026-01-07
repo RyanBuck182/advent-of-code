@@ -48,11 +48,11 @@ def remove_paper():
 
 
 total_removed_paper = 0
-paperWasRemoved = True
-while paperWasRemoved:
+paper_was_removed = True
+while paper_was_removed:
     removed_paper = remove_paper()
     total_removed_paper += removed_paper
     if removed_paper == 0:
-        paperWasRemoved = False
+        paper_was_removed = False
 
 print(total_removed_paper)
